@@ -1,0 +1,643 @@
+# Copyright (C) 2015-2019 WEN Themes
+# This file is distributed under the GNU General Public License, version 2 (GPLv2).
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WEN Corporate\n"
+"Report-Msgid-Bugs-To: https://wenthemes.com/contact/\n"
+"POT-Creation-Date: 2020-12-25 21:14-0500\n"
+"PO-Revision-Date: 2016-12-07 01:05-0500\n"
+"Last-Translator: WEN Themes <info@wenthemes.com>\n"
+"Language-Team: WEN Themes <info@wenthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: \n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:36
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:40
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: ../comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: ../comments.php:36
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:51 ../comments.php:68
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:52 ../comments.php:69
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:53 ../comments.php:70
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:80
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:19
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../content-page.php:23 ../content-single.php:25 ../content.php:53
+msgid "Pages:"
+msgstr ""
+
+#: ../content-page.php:30 ../inc/template-tags.php:82
+msgid "Edit"
+msgstr ""
+
+#: ../content.php:34
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: ../functions.php:46
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:47
+msgid "Footer Menu"
+msgstr ""
+
+#: ../functions.php:48
+msgid "Social Menu"
+msgstr ""
+
+#: ../functions.php:135
+msgid "Sidebar"
+msgstr ""
+
+#: ../functions.php:137
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: ../functions.php:144
+msgid "Front Page Widget Area"
+msgstr ""
+
+#: ../functions.php:146
+msgid "Widgets in this sidebar will be displayed in home page."
+msgstr ""
+
+#: ../header.php:33
+msgid "Skip to content"
+msgstr ""
+
+#: ../inc/customizer.php:12
+msgid "Theme Options"
+msgstr ""
+
+#: ../inc/customizer.php:15
+msgid "General"
+msgstr ""
+
+#: ../inc/customizer.php:18
+msgid "Color Scheme"
+msgstr ""
+
+#: ../inc/customizer.php:22
+msgid "Blue"
+msgstr ""
+
+#: ../inc/customizer.php:23
+msgid "Chocolate"
+msgstr ""
+
+#: ../inc/customizer.php:27
+msgid "Global Layout"
+msgstr ""
+
+#: ../inc/customizer.php:31
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../inc/customizer.php:32
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../inc/customizer.php:33
+msgid "No Sidebar"
+msgstr ""
+
+#: ../inc/customizer.php:37
+msgid "Enable Go To Top"
+msgstr ""
+
+#: ../inc/customizer.php:45
+msgid "Header"
+msgstr ""
+
+#: ../inc/customizer.php:48
+msgid "Header Layout"
+msgstr ""
+
+#: ../inc/customizer.php:57
+msgid "Show Site Title"
+msgstr ""
+
+#: ../inc/customizer.php:62
+msgid "Show Tagline"
+msgstr ""
+
+#: ../inc/customizer.php:67
+msgid "Show Search Box"
+msgstr ""
+
+#: ../inc/customizer.php:72
+msgid "Show Social Icons"
+msgstr ""
+
+#: ../inc/customizer.php:78
+msgid "Breadcrumb"
+msgstr ""
+
+#: ../inc/customizer.php:81
+msgid "Breadcrumb Type"
+msgstr ""
+
+#: ../inc/customizer.php:85
+msgid "Disabled"
+msgstr ""
+
+#: ../inc/customizer.php:86
+msgid "Simple"
+msgstr ""
+
+#: ../inc/customizer.php:87 ../inc/customizer.php:237
+msgid "Advanced"
+msgstr ""
+
+#: ../inc/customizer.php:94
+msgid "Footer"
+msgstr ""
+
+#: ../inc/customizer.php:97
+msgid "Footer Widgets"
+msgstr ""
+
+#: ../inc/customizer.php:101
+msgid "No Widget"
+msgstr ""
+
+#: ../inc/customizer.php:102
+#, php-format
+msgid "%d Widget"
+msgstr ""
+
+#: ../inc/customizer.php:103 ../inc/customizer.php:104 ../inc/customizer.php:105
+#, php-format
+msgid "%d Widgets"
+msgstr ""
+
+#: ../inc/customizer.php:109
+msgid "Copyright Text"
+msgstr ""
+
+#: ../inc/customizer.php:111
+msgid "Copyright &copy; All Rights Reserved."
+msgstr ""
+
+#: ../inc/customizer.php:114
+msgid "Enable Powered By"
+msgstr ""
+
+#: ../inc/customizer.php:121
+msgid "Blog"
+msgstr ""
+
+#: ../inc/customizer.php:124
+msgid "Blog Layout"
+msgstr ""
+
+#: ../inc/customizer.php:128
+msgid "Full Post"
+msgstr ""
+
+#: ../inc/customizer.php:129
+msgid "Excerpt"
+msgstr ""
+
+#: ../inc/customizer.php:130
+msgid "Excerpt with Thumbnail"
+msgstr ""
+
+#: ../inc/customizer.php:134 ../inc/widgets/service.php:236 ../inc/widgets/service.php:258
+#: ../inc/widgets/service.php:280 ../inc/widgets/service.php:302
+msgid "Read more text"
+msgstr ""
+
+#: ../inc/customizer.php:136 ../inc/theme-functions.php:219 ../inc/widgets/recent-posts-block.php:25
+#: ../inc/widgets/recent-posts-block.php:61 ../inc/widgets/recent-posts-block.php:76
+#: ../inc/widgets/service.php:175 ../inc/widgets/service.php:180 ../inc/widgets/service.php:185
+#: ../inc/widgets/service.php:190
+msgid "Read more"
+msgstr ""
+
+#: ../inc/customizer.php:140 ../inc/widgets/recent-posts-block.php:125
+msgid "Excerpt Length"
+msgstr ""
+
+#: ../inc/customizer.php:149
+msgid "Slider"
+msgstr ""
+
+#: ../inc/customizer.php:152
+msgid "Slider Status"
+msgstr ""
+
+#: ../inc/customizer.php:157
+msgid "Disable"
+msgstr ""
+
+#: ../inc/customizer.php:158
+msgid "Enable"
+msgstr ""
+
+#: ../inc/customizer.php:162
+msgid "Slider Display"
+msgstr ""
+
+#: ../inc/customizer.php:168
+msgid "All Pages"
+msgstr ""
+
+#: ../inc/customizer.php:169
+msgid "Home Page Only"
+msgstr ""
+
+#: ../inc/customizer.php:173
+msgid "Slider Category"
+msgstr ""
+
+#: ../inc/customizer.php:178
+msgid "Number of Slides"
+msgstr ""
+
+#: ../inc/customizer.php:186
+msgid "Transition Effect"
+msgstr ""
+
+#: ../inc/customizer.php:192
+msgid "Fade"
+msgstr ""
+
+#: ../inc/customizer.php:193
+msgid "Fade Out"
+msgstr ""
+
+#: ../inc/customizer.php:194
+msgid "None"
+msgstr ""
+
+#: ../inc/customizer.php:195
+msgid "Scroll Horizontal"
+msgstr ""
+
+#: ../inc/customizer.php:199
+msgid "Show Caption"
+msgstr ""
+
+#: ../inc/customizer.php:205
+msgid "Show Pager"
+msgstr ""
+
+#: ../inc/customizer.php:211
+msgid "Enable Autoplay"
+msgstr ""
+
+#: ../inc/customizer.php:218
+msgid "Transition Delay"
+msgstr ""
+
+#: ../inc/customizer.php:226
+msgid "Transition Length"
+msgstr ""
+
+#: ../inc/customizer.php:240
+msgid "Custom CSS"
+msgstr ""
+
+#: ../inc/customizer.php:478
+msgid "WEN Corporate Pro"
+msgstr ""
+
+#: ../inc/customizer.php:479
+msgid "Buy Pro"
+msgstr ""
+
+#: ../inc/template-tags.php:17
+msgid "Older posts"
+msgstr ""
+
+#: ../inc/template-tags.php:18
+msgid "Newer posts"
+msgstr ""
+
+#: ../inc/template-tags.php:64 ../inc/template-tags.php:70
+msgid ", "
+msgstr ""
+
+#: ../inc/template-tags.php:66
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: ../inc/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: ../inc/template-tags.php:78
+msgid "Leave a comment"
+msgstr ""
+
+#: ../inc/template-tags.php:78
+msgid "1 Comment"
+msgstr ""
+
+#: ../inc/template-tags.php:78
+msgid "% Comments"
+msgstr ""
+
+#: ../inc/theme-functions.php:329 ../lib/breadcrumbs.php:246
+msgid "Home"
+msgstr ""
+
+#: ../inc/theme-hooks.php:115
+#, php-format
+msgid "Footer Column %d"
+msgstr ""
+
+#: ../inc/theme-hooks.php:141
+msgid "Sidebar Area"
+msgstr ""
+
+#: ../inc/theme-hooks.php:142
+msgid ""
+"This is sidebar area. You are viewing this because there is no any widget in Sidebar Widget Area. "
+"Go to Appearance->Widgets in admin panel to add widgets."
+msgstr ""
+
+#: ../inc/theme-hooks.php:331
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: ../inc/theme-hooks.php:331
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: ../inc/theme-hooks.php:333
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: ../inc/theme-hooks.php:518
+msgid "Recommended Image Sizes"
+msgstr ""
+
+#: ../inc/theme-hooks.php:519
+msgid "Slider Image"
+msgstr ""
+
+#: ../inc/theme-hooks.php:546
+msgid "Welcome"
+msgstr ""
+
+#: ../inc/theme-hooks.php:547
+msgid ""
+"This is Welcome Widget. You are viewing this because there is no any widget in Front Page Widget "
+"Area. Go to Appearance->Widgets in admin panel to add widgets."
+msgstr ""
+
+#: ../inc/theme-hooks.php:558
+msgid ""
+"This is Call To Action (CTA) Widget. Following widgets are available for you to display in front "
+"page. Welcome Widget, Service Widget, Recent Posts Block Widget, Call To Action (CTA) Widget"
+msgstr ""
+
+#: ../inc/theme-hooks.php:559
+msgid "Add Widgets Now"
+msgstr ""
+
+#: ../inc/theme-hooks.php:577
+msgid "Latest Highlights"
+msgstr ""
+
+#: ../inc/widgets/cta.php:8
+msgid "Call To Action Widget. Displays message and button with URL."
+msgstr ""
+
+#: ../inc/widgets/cta.php:12
+msgid "Corporate CTA Widget"
+msgstr ""
+
+#: ../inc/widgets/cta.php:20 ../inc/widgets/cta.php:59
+msgid "Learn more..."
+msgstr ""
+
+#: ../inc/widgets/cta.php:63 ../inc/widgets/welcome.php:54
+msgid "Description:"
+msgstr ""
+
+#: ../inc/widgets/cta.php:67
+msgid "Button text:"
+msgstr ""
+
+#: ../inc/widgets/cta.php:71
+msgid "Button URL:"
+msgstr ""
+
+#: ../inc/widgets/divider.php:8
+msgid "Displays horizontal line to provide spacing."
+msgstr ""
+
+#: ../inc/widgets/divider.php:12
+msgid "Corporate Divider Widget"
+msgstr ""
+
+#: ../inc/widgets/divider.php:32
+msgid "No option for this widget"
+msgstr ""
+
+#: ../inc/widgets/recent-posts-block.php:8
+msgid ""
+"Recent Posts Block Widget. Displays posts in carousel slider. Most suitable for Front Page Widget "
+"Area."
+msgstr ""
+
+#: ../inc/widgets/recent-posts-block.php:11
+msgid "Corporate Recent Posts Block"
+msgstr ""
+
+#: ../inc/widgets/recent-posts-block.php:88 ../inc/widgets/service.php:218
+#: ../inc/widgets/service.php:223 ../inc/widgets/service.php:245 ../inc/widgets/service.php:267
+#: ../inc/widgets/service.php:289
+msgid "Title"
+msgstr ""
+
+#: ../inc/widgets/recent-posts-block.php:92
+msgid "Category"
+msgstr ""
+
+#: ../inc/widgets/recent-posts-block.php:103
+msgid "All Categories"
+msgstr ""
+
+#: ../inc/widgets/recent-posts-block.php:112
+msgid "Number of posts"
+msgstr ""
+
+#: ../inc/widgets/recent-posts-block.php:121
+msgid "Show Post Excerpt"
+msgstr ""
+
+#: ../inc/widgets/recent-posts-block.php:131
+msgid "Show More Button"
+msgstr ""
+
+#: ../inc/widgets/recent-posts-block.php:135
+msgid "More Button Text"
+msgstr ""
+
+#: ../inc/widgets/service.php:8
+msgid "Show your services with icon and read more link."
+msgstr ""
+
+#: ../inc/widgets/service.php:12
+msgid "Corporate Service Widget"
+msgstr ""
+
+#: ../inc/widgets/service.php:171
+msgid "Services"
+msgstr ""
+
+#: ../inc/widgets/service.php:227 ../inc/widgets/service.php:249 ../inc/widgets/service.php:271
+#: ../inc/widgets/service.php:293
+msgid "Icon"
+msgstr ""
+
+#: ../inc/widgets/service.php:228 ../inc/widgets/service.php:250 ../inc/widgets/service.php:272
+#: ../inc/widgets/service.php:294
+msgid "eg: fa-cogs"
+msgstr ""
+
+#: ../inc/widgets/service.php:232 ../inc/widgets/service.php:254 ../inc/widgets/service.php:276
+#: ../inc/widgets/service.php:298
+msgid "Intro"
+msgstr ""
+
+#: ../inc/widgets/service.php:240 ../inc/widgets/service.php:262 ../inc/widgets/service.php:284
+#: ../inc/widgets/service.php:306
+msgid "URL"
+msgstr ""
+
+#: ../inc/widgets/social.php:8
+msgid "Displays social icons."
+msgstr ""
+
+#: ../inc/widgets/social.php:12
+msgid "Corporate Social Widget"
+msgstr ""
+
+#: ../inc/widgets/social.php:58 ../inc/widgets/welcome.php:50
+msgid "Title:"
+msgstr ""
+
+#: ../inc/widgets/social.php:64
+msgid "Social menu is not set. Please create menu and assign it to Social Menu."
+msgstr ""
+
+#: ../inc/widgets/welcome.php:8
+msgid "Displays welcome box with title and message."
+msgstr ""
+
+#: ../inc/widgets/welcome.php:12
+msgid "Corporate Welcome Widget"
+msgstr ""
+
+#: ../lib/breadcrumbs.php:244
+msgid "Browse:"
+msgstr ""
+
+#: ../lib/breadcrumbs.php:247
+msgid "404 Not Found"
+msgstr ""
+
+#: ../lib/breadcrumbs.php:248
+msgid "Archives"
+msgstr ""
+
+#: ../lib/breadcrumbs.php:250
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: ../lib/breadcrumbs.php:252
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../lib/breadcrumbs.php:254
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: ../lib/breadcrumbs.php:256
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: ../search.php:37
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:2
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: ../wen-customizer/controls.php:45
+msgid "&mdash; Select &mdash;"
+msgstr ""

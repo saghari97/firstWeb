@@ -1,0 +1,480 @@
+/*	
+	Theme Name:		Gutenbiz Light
+	Theme URI:		https://risethemes.com/downloads/gutenbiz-light/
+	Description:	Gutenbiz Light, a child theme of Gutenbiz that fits any kind of business website.
+	Author:			Rise Themes
+	Author URI: 	http://risethemes.com/
+    Template:		gutenbiz
+	Version:		1.0.2
+<<<<<<< HEAD
+    Tested up to:   5.5.1
+=======
+    Tested up to:   5.4.2
+>>>>>>> 62a17622585678926384a61a90401146c75ec69f
+    Requires PHP:   5.2.4
+	License:		GNU General Public License v2 or later
+	License URI:	http://www.gnu.org/licenses/gpl-2.0.html
+	Tags:			left-sidebar, right-sidebar, wide-blocks, block-styles, grid-layout, two-columns, flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, threaded-comments, translation-ready, news, education, entertainment
+	Text Domain:	gutenbiz-light
+*/
+
+nav#site-navigation > ul > li.menu-item-has-children > a:before {
+    content: "\F107";
+    font-family: fontAwesome;
+    position: absolute;
+    right: -15px;
+}
+
+
+.gutenbiz-header-style-light .gutenbiz-top-bar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gutenbiz-header-style-light .gutenbiz-header-icons {
+    display: none;
+}
+.gutenbiz-header-style-light .gutenbiz-top-bar-content {
+	background: #0099f7;
+    position: relative;
+    padding: 10px 0;
+}
+.gutenbiz-header-style-light .gutenbiz-top-bar-content .gutenbiz-top-bar-inner {
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+}
+ .gutenbiz-header-style-light .gutenbiz-top-bar-inner  > div {
+	 max-width: 50%;
+	 flex: 0 0 50%;
+}
+ .gutenbiz-header-style-light .gutenbiz-top-bar-content .gutenbiz-search-form,
+ .gutenbiz-light-theme.gutenbiz-advanced-header .gutenbiz-top-bar .gutenbiz-search-form {
+	 display: flex;
+	 align-items: center;
+	 justify-content: flex-end;
+}
+.gutenbiz-header-style-light .gutenbiz-top-bar-content .gutenbiz-search-form .search-form,
+.gutenbiz-light-theme.gutenbiz-advanced-header .gutenbiz-top-bar  .gutenbiz-search-form .search-form {
+	width: 100%;
+}
+
+.gutenbiz-header-style-light .gutenbiz-top-bar-content .gutenbiz-search-form .search-form label,
+.gutenbiz-light-theme.gutenbiz-advanced-header .gutenbiz-top-bar .gutenbiz-search-form .search-form label{
+	 width: 100%;
+	 display: flex;
+	 justify-content: flex-end;
+}
+.gutenbiz-header-style-light .gutenbiz-top-bar-content .gutenbiz-search-form .search-form label input.search-field,
+.gutenbiz-light-theme.gutenbiz-advanced-header .gutenbiz-top-bar .search-form label input.search-field {
+	 height: 37px;
+	 width: 300px;
+	 min-height: auto;
+	 border-radius: 25px;
+	 transition: all 0.5s ease;
+	 background: #fff;
+}
+ .gutenbiz-header-style-light .gutenbiz-top-bar-content .gutenbiz-search-form .search-form label input.search-field:focus,
+ .gutenbiz-light-theme.gutenbiz-advanced-header .gutenbiz-top-bar .search-form label input.search-field:focus {
+	 width: 100%;
+}
+ .gutenbiz-header-style-light .gutenbiz-header-style-2-menu {
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+}
+.gutenbiz-header-style-light .gutenbiz-header-style-2-menu .menu-toggler {
+	 margin-top: 0;
+	 display: none;
+}
+
+/* header button */
+
+.gutenbiz-header-button {
+    background: #0099f7;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-left: 25px;
+    display: inline-flex;
+    align-items: center;
+    transition: all .3s;
+}
+
+a.gutenbiz-header-button:after {
+	margin-left: 6px;
+	font-family: fontAwesome;
+}
+
+.gutenbiz-header-button:hover {
+	background: #0099f7;
+}
+
+.gutenbiz-header-button:focus {
+	outline: 1px solid #000;
+}
+ 
+.gutenbiz-header-button i {
+ 	margin-left: 6px;
+}
+
+.gutenbiz-header-button:visited {
+ 	color: #fff;
+}
+
+/* post btn */
+body .gutenbiz-post .entry-content-stat + a {   
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.gutenbiz-post .entry-content-stat + a:hover i {
+	margin-left: 0.3rem;
+}
+
+a.gutenbiz-single-page-link {
+    display: initial;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    position: absolute;
+}
+
+.hide-readmore-btn .entry-content-stat + a {
+	display: none !important;
+}
+
+/* contact section */
+
+.contact input.wpcf7-form-control {
+   width: 100%;
+    margin-top: 5px;
+    height: 45px;
+    border-radius: 0;
+}
+
+.contact textarea {
+	height: 100px;
+}
+
+.contact form p {
+    margin-top: 0;
+}
+
+.contact .wp-block-column {
+    border: 1px solid #eee;
+    padding: 25px;
+}
+
+.contact input.wpcf7-form-control.wpcf7-submit {
+    background: #0099f7;
+    color: #fff;
+    font-size: 18px;
+    font-weight: normal;
+    border: none;
+	cursor: pointer;
+}
+
+
+.rise-blocks-banner-btn:focus,
+.rise-blocks-blog-wrapper a:focus {
+    outline: thin dotted !important;
+}
+
+
+@media (max-width: 767px) {
+	body.gutenbiz-right-sidebar .sidebar-order {
+	    padding-left: 15px;
+	}
+
+	.gutenbiz-header-style-light .gutenbiz-header-style-2-menu .menu-toggler {
+		display: block;
+	}
+
+	.gutenbiz-header-style-light .gutenbiz-menu-right {
+		display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	    width: 100%;
+	    padding: 10px 0;
+	}
+
+    .gutenbiz-header-style-light .gutenbiz-top-bar-content .gutenbiz-search-form .search-form label input.search-field,
+    .gutenbiz-light-theme.gutenbiz-advanced-header .gutenbiz-top-bar .search-form label input.search-field {
+        width: 100%;
+    }
+}
+
+
+
+/* social menu */
+*[id^='menu-social'] {
+    display: flex;
+}
+
+*[id^='menu-social']  li:before {
+    display: none;
+}
+
+*[id^='menu-social'] li a {
+    color: transparent !important;
+    font-size: 0 !important;
+    height: 0 !important;
+    width: 0 !important;
+    line-height: 0;
+}
+
+.menu-social-container ul a span,
+*[id^='menu-social'] a span {
+	display: none;
+}
+
+.menu-social-container ul a:before,
+*[id^='menu-social'] a:before{
+    display: flex;
+    font-family: fontAwesome;
+    background: #fff;
+    padding: 10px;
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    transition: all .3s;
+    font-size: 16px;
+
+}
+
+*[id^='menu-social'] li:first-child a:before {
+    margin-left: 0;
+}
+
+.menu-social-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.menu-social-container ul a[href*="facebook.com"]:before,
+.menu-social-container ul a[href*="fb.me"]:before,
+*[id^='menu-social-'] a[href*="facebook.com"]:before,
+*[id^='menu-social'] a[href*="fb.me"]:before {
+    content: "\f09a";
+    color: #1877f2;
+}
+
+.menu-social-container ul a[href^="tel:"]:before,
+*[id^='menu-social-'] a:before {
+    content: "\f095";
+}
+
+.menu-social-container ul a[href*="facebook.com"]:hover:before,
+.menu-social-container ul a[href*="fb.me"]:hover:before, 
+.menu-social-container-style-2 .menu-social-container ul a[href*="facebook.com"]:before,
+.menu-social-container-style-2 .menu-social-container ul a[href*="fb.me"]:before {
+    background: #1877f2;
+    color: #fff;
+}
+
+.menu-social-container a[href*="twitter.com"]:before,
+*[id^='menu-social'] a[href*="twitter.com"]:before {
+    content: "\f099";
+    color: #1da1f2;
+}
+
+.menu-social-container a[href*="twitter.com"]:hover:before,
+.menu-social-container-style-2 .menu-social-container a[href*="twitter.com"]:before {
+    background: #1da1f2;
+    color: #fff;
+}
+
+.menu-social-container a[href*="linkedin.com"]:before,
+*[id^='menu-social'] a[href*="linkedin.com"]:before {
+    content: "\f0e1";
+    color: #007bb5;
+   
+}
+
+.menu-social-container a[href*="linkedin.com"]:hover:before,
+.menu-social-container-style-2 .menu-social-container a[href*="linkedin.com"]:before {
+    background: #007bb5;
+    color: #fff;
+   
+}
+
+.menu-social-container a[href*="wordpress.org"]:before,
+*[id^='menu-social'] a[href*="wordpress.org"]:before {
+    content: "\f19a";
+    color: #0073aa;
+}
+
+.menu-social-container a[href*="wordpress.org"]:hover:before,
+.menu-social-container-style-2 .menu-social-container a[href*="wordpress.org"]:before {
+    background: #0073aa;
+    color: #fff;
+}
+
+
+.menu-social-container a[href*="instagram.com"]:before,
+*[id^='menu-social'] a[href*="instagram.com"]:before {
+    content: "\f16d";
+    color: #c32aa3;
+}
+
+.menu-social-container a[href*="instagram.com"]:hover:before,
+.menu-social-container-style-2 .menu-social-container a[href*="instagram.com"]:before {
+    background: #c32aa3;
+    color: #fff;
+}
+
+.menu-social-container a[href*="youtube.com"]:before,
+*[id^='menu-social-'] a[href*="youtube.com"]:before {
+    content: "\f167";
+    color: #ff0000;
+}
+
+.menu-social-container a[href*="youtube.com"]:hover:before, 
+.menu-social-container-style-2 .menu-social-container a[href*="youtube.com"]:before {
+    background: #ff0000;
+    color: #fff;
+}
+
+
+.menu-social-container a[href*="vimeo.com"]:before,
+*[id^='menu-social-'] a[href*="vimeo.com"]:before {
+    content: "\f27d";
+    color: #1ab7ea;
+}
+
+.menu-social-container a[href*="vimeo.com"]:hover:before, 
+.menu-social-container-style-2 .menu-social-container a[href*="vimeo.com"]:before {
+    background: #1ab7ea;
+    color: #fff;
+}
+
+.menu-social-container a[href*="dribbble.com"]:before,
+*[id^='menu-social-'] a[href*="dribbble.com"]:before {
+    content: "\f17d";
+    color: #ea4c89;
+}
+
+.menu-social-container a[href*="dribbble.com"]:hover:before, 
+.menu-social-container-style-2 .menu-social-container a[href*="dribbble.com"]:before {
+    background: #ea4c89;
+    color: #fff;
+}
+
+.menu-social-container a[href*="aboutme.google.com"]:before {
+    content: "\f0d5";
+    color: #db4437;
+}
+
+.menu-social-container a[href*="aboutme.google.com"]:hover:before, 
+.menu-social-container-style-2 .menu-social-container a[href*="aboutme.google.com"]:before {
+    background: #db4437;
+    color: #fff;
+}
+
+.menu-social-container a[href*="vine.com"]:before {
+    content: "\f1ca";
+    color: #00b489;
+}
+
+.menu-social-container a[href*="vine.com"]:hover:before, 
+.menu-social-container-style-2 .menu-social-container a[href*="vine.com"]:before {
+    background: #00b489;
+    color: #fff;
+}
+
+.menu-social-container a[href*="whatsapp.com"]:before {
+    content: "\f232";
+    color: #25d366;
+}
+
+.menu-social-container a[href*="whatsapp.com"]:hover:before, 
+.menu-social-container-style-2 .menu-social-container a[href*="whatsapp.com"]:before {
+    background: #25d366;
+    color: #fff;
+}
+
+.menu-social-container a[href*="wechat.com"]:before {
+    content: "\f1d7";
+    color: #25d366;
+}
+
+.menu-social-container a[href*="wechat.com"]:hover:before, 
+.menu-social-container-style-2 .menu-social-container a[href*="wechat.com"]:before {
+    background: #25d366;
+    color: #fff;
+}
+
+.menu-social-container a[href*="line.me"]:before {
+    content: "\f0e5";
+    color: #25d366;
+}
+
+.menu-social-container a[href*="line.me"]:hover:before, 
+.menu-social-container-style-2 .menu-social-container a[href*="line.me"]:before {
+    background: #25d366;
+    color: #fff;
+}
+
+.menu-social-container a[href*="snapchat.com"]:before {
+    content: "\f2ac";
+    color: #fffc00;
+}
+
+.menu-social-container a[href*="snapchat.com"]:hover:before, 
+.menu-social-container-style-2 .menu-social-container a[href*="snapchat.com"]:before {
+    background: #fffc00;
+    color: #fff;
+}
+
+.menu-social-container a[href*="mailto:"]:before {
+    content: "\f0e0";
+    color: #ff0000;
+}
+
+.menu-social-container a[href*="mailto:"]:hover:before, 
+.menu-social-container a[href*="mailto:"]:before {
+    background: #ff0000;
+    color: #fff;
+}
+
+/* when advanced header is activated */
+
+.gutenbiz-light-theme.gutenbiz-advanced-header .gutenbiz-top-bar .search-form {
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: end;
+    text-align: right;
+}
+
+
+.gutenbiz-light-theme.gutenbiz-advanced-header .gutenbiz-top-bar .search-form label input.search-field {
+    width: 90%;
+}
+
+@media (max-width: 767px) { 
+
+    .gutenbiz-light-theme.gutenbiz-advanced-header .gutenbiz-top-bar {
+        height: auto;
+    }
+
+    .gutenbiz-light-theme.gutenbiz-advanced-header section.gutenbiz-bottom-header {
+        padding: 10px 0;
+    }
+
+   
+
+    .gutenbiz-light-theme.gutenbiz-advanced-header .gutenbiz-top-bar .col-12.col-md-2 {
+        margin: 15px 0 10px;       
+    }
+
+    .gutenbiz-light-theme.gutenbiz-advanced-header .gutenbiz-header-button {
+        display: none;
+    }
+}
+

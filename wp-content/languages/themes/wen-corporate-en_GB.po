@@ -1,0 +1,686 @@
+# Translation of Themes - WEN Corporate in English (UK)
+# This file is distributed under the same license as the Themes - WEN Corporate package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-11-16 14:38:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_GB\n"
+"Project-Id-Version: Themes - WEN Corporate\n"
+
+#. Description of the theme
+msgid "WEN Themes proudly present WEN Corporate : a simple and clean business-based responsive WordPress theme. With standard sections that work for any Company, convenient Theme Options for easy management and standard features of an elegant blog and homepage, WEN Corporate is a fine solution for a fine presentation. Salient feature have offering of : Standard Theme Options on top of WordPress' Customizer, cross-browser compatibility, featured slider, two theme skins, different page layout options ( right, left, full width ), multiple header layout, translation-ready, featured image, custom menus, social icons, custom CSS field and other standard WordPress elements . The code / setup is easy to customize and extend by various hooks offered in the build. With generous spacing toward a clean presentation, standard coding practices, latest feature the theme could be a next for your awesome start-up site. Official Support Forum: https://themepalace.com/support-forum/ Full Demo: https://wenthemes.com/theme-demos/?demo=wen-corporate"
+msgstr "WEN Themes proudly present WEN Corporate: a simple and clean business-based responsive WordPress theme. With standard sections that work for any Company, convenient Theme Options for easy management and standard features of an elegant blog and homepage, WEN Corporate is a fine solution for a fine presentation. Salient feature have offering of: Standard Theme Options on top of WordPress' Customiser, cross-browser compatibility, featured slider, two theme skins, different page layout options (right, left, full width), multiple header layout, translation-ready, featured image, custom menus, social icons, custom CSS field and other standard WordPress elements . The code / setup is easy to customise and extend by various hooks offered in the build. With generous spacing toward a clean presentation, standard coding practices, latest feature the theme could be a next for your awesome start-up site. Official Support Forum: https://themepalace.com/support-forum/ Full Demo: https://wenthemes.com/theme-demos/?demo=wen-corporate"
+
+#. Theme Name of the theme
+msgid "WEN Corporate"
+msgstr "WEN Corporate"
+
+#. translators: %s: post title
+#: comments.php:31
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "One thought on &ldquo;%s&rdquo;"
+
+#: inc/customizer.php:479
+msgid "Buy Pro"
+msgstr "Buy Pro"
+
+#: inc/customizer.php:478
+msgid "WEN Corporate Pro"
+msgstr "WEN Corporate Pro"
+
+#: inc/widgets/social.php:64
+msgid "Social menu is not set. Please create menu and assign it to Social Menu."
+msgstr "Social menu is not set. Please create menu and assign it to Social Menu."
+
+#: lib/breadcrumbs.php:758 lib/breadcrumbs.php:787 lib/breadcrumbs.php:814
+#: lib/breadcrumbs.php:841 lib/breadcrumbs.php:1182
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/customizer.php:57
+msgid "Show Site Title"
+msgstr "Show Site Title"
+
+#: lib/breadcrumbs.php:742
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "g a"
+
+#: lib/breadcrumbs.php:725
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: lib/breadcrumbs.php:708
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "g:i a"
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: lib/breadcrumbs.php:256
+msgid "Week %s"
+msgstr "Week %s"
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: lib/breadcrumbs.php:254
+msgid "Minute %s"
+msgstr "Minute %s"
+
+#. Translators: %s is the search query. The HTML entities are opening and
+#. closing curly quotes.
+#: lib/breadcrumbs.php:250
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Search results for &#8220;%s&#8221;"
+
+#: lib/breadcrumbs.php:247
+msgid "404 Not Found"
+msgstr "404 Not Found"
+
+#: lib/breadcrumbs.php:245
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "Breadcrumbs"
+
+#: lib/breadcrumbs.php:244
+msgid "Browse:"
+msgstr "Browse:"
+
+#: inc/customizer.php:86
+msgid "Simple"
+msgstr "Simple"
+
+#: inc/customizer.php:85
+msgid "Disabled"
+msgstr "Disabled"
+
+#: inc/customizer.php:81
+msgid "Breadcrumb Type"
+msgstr "Breadcrumb Type"
+
+#: inc/customizer.php:78
+msgid "Breadcrumb"
+msgstr "Breadcrumb"
+
+#: inc/theme-functions.php:329 lib/breadcrumbs.php:246
+msgid "Home"
+msgstr "Home"
+
+#: wen-customizer/controls.php:45
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Select &mdash;"
+
+#: inc/customizer.php:211
+msgid "Enable Autoplay"
+msgstr "Enable Autoplay"
+
+#: functions.php:137
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Add widgets here to appear in your sidebar."
+
+#: 404.php:40
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "It looks like nothing was found at this location. Maybe try a search?"
+
+#: inc/customizer.php:103 inc/customizer.php:104 inc/customizer.php:105
+msgid "%d Widgets"
+msgstr "%d Widgets"
+
+#: inc/customizer.php:102
+msgid "%d Widget"
+msgstr "%d Widget"
+
+#: searchform.php:3
+msgctxt "placeholder"
+msgid "Search..."
+msgstr "Search..."
+
+#: searchform.php:2 searchform.php:3
+msgctxt "label"
+msgid "Search for:"
+msgstr "Search for:"
+
+#: search.php:37
+msgid "Search Results for: %s"
+msgstr "Search Results for: %s"
+
+#: inc/widgets/welcome.php:12
+msgid "Corporate Welcome Widget"
+msgstr "Corporate Welcome Widget"
+
+#: inc/widgets/welcome.php:8
+msgid "Displays welcome box with title and message."
+msgstr "Displays welcome box with title and message."
+
+#: inc/widgets/welcome.php:50 inc/widgets/social.php:58
+msgid "Title:"
+msgstr "Title:"
+
+#: inc/widgets/social.php:12
+msgid "Corporate Social Widget"
+msgstr "Corporate Social Widget"
+
+#: inc/widgets/social.php:8
+msgid "Displays social icons."
+msgstr "Displays social icons."
+
+#: inc/widgets/service.php:240 inc/widgets/service.php:262
+#: inc/widgets/service.php:284 inc/widgets/service.php:306
+msgid "URL"
+msgstr "URL"
+
+#: inc/widgets/service.php:232 inc/widgets/service.php:254
+#: inc/widgets/service.php:276 inc/widgets/service.php:298
+msgid "Intro"
+msgstr "Intro"
+
+#: inc/widgets/service.php:228 inc/widgets/service.php:250
+#: inc/widgets/service.php:272 inc/widgets/service.php:294
+msgid "eg: fa-cogs"
+msgstr "eg: fa-cogs"
+
+#: inc/widgets/service.php:227 inc/widgets/service.php:249
+#: inc/widgets/service.php:271 inc/widgets/service.php:293
+msgid "Icon"
+msgstr "Icon"
+
+#: inc/widgets/service.php:171
+msgid "Services"
+msgstr "Services"
+
+#: inc/widgets/service.php:12
+msgid "Corporate Service Widget"
+msgstr "Corporate Service Widget"
+
+#: inc/widgets/service.php:8
+msgid "Show your services with icon and read more link."
+msgstr "Show your services with icon and read more link."
+
+#: inc/widgets/recent-posts-block.php:135
+msgid "More Button Text"
+msgstr "More Button Text"
+
+#: inc/widgets/recent-posts-block.php:131
+msgid "Show More Button"
+msgstr "Show More Button"
+
+#: inc/widgets/recent-posts-block.php:121
+msgid "Show Post Excerpt"
+msgstr "Show Post Excerpt"
+
+#: inc/widgets/recent-posts-block.php:112
+msgid "Number of posts"
+msgstr "Number of posts"
+
+#: inc/widgets/recent-posts-block.php:103
+msgid "All Categories"
+msgstr "All Categories"
+
+#: inc/widgets/recent-posts-block.php:92
+msgid "Category"
+msgstr "Category"
+
+#: inc/widgets/recent-posts-block.php:88 inc/widgets/service.php:218
+#: inc/widgets/service.php:223 inc/widgets/service.php:245
+#: inc/widgets/service.php:267 inc/widgets/service.php:289
+msgid "Title"
+msgstr "Title"
+
+#: inc/widgets/recent-posts-block.php:11
+msgid "Corporate Recent Posts Block"
+msgstr "Corporate Recent Posts Block"
+
+#: inc/widgets/recent-posts-block.php:8
+msgid "Recent Posts Block Widget. Displays posts in carousel slider. Most suitable for Front Page Widget Area."
+msgstr "Recent Posts Block Widget. Displays posts in carousel slider. Most suitable for Front Page Widget Area."
+
+#: inc/widgets/divider.php:32
+msgid "No option for this widget"
+msgstr "No option for this widget"
+
+#: inc/widgets/divider.php:12
+msgid "Corporate Divider Widget"
+msgstr "Corporate Divider Widget"
+
+#: inc/widgets/divider.php:8
+msgid "Displays horizontal line to provide spacing."
+msgstr "Displays horizontal line to provide spacing."
+
+#: inc/widgets/cta.php:71
+msgid "Button URL:"
+msgstr "Button URL:"
+
+#: inc/widgets/cta.php:67
+msgid "Button text:"
+msgstr "Button text:"
+
+#: inc/widgets/cta.php:63 inc/widgets/welcome.php:54
+msgid "Description:"
+msgstr "Description:"
+
+#: inc/widgets/cta.php:20 inc/widgets/cta.php:59
+msgid "Learn more..."
+msgstr "Learn more..."
+
+#: inc/widgets/cta.php:12
+msgid "Corporate CTA Widget"
+msgstr "Corporate CTA Widget"
+
+#: inc/widgets/cta.php:8
+msgid "Call To Action Widget. Displays message and button with URL."
+msgstr "Call To Action Widget. Displays message and button with URL."
+
+#: inc/theme-hooks.php:577
+msgid "Latest Highlights"
+msgstr "Latest Highlights"
+
+#: inc/theme-hooks.php:559
+msgid "Add Widgets Now"
+msgstr "Add Widgets Now"
+
+#: inc/theme-hooks.php:558
+msgid "This is Call To Action (CTA) Widget. Following widgets are available for you to display in front page. Welcome Widget, Service Widget, Recent Posts Block Widget, Call To Action (CTA) Widget"
+msgstr "This is a Call To Action (CTA) Widget. The following widgets are available for you to display on the front page: Welcome Widget, Service Widget, Recent Posts Block Widget, Call To Action (CTA) Widget"
+
+#: inc/theme-hooks.php:547
+msgid "This is Welcome Widget. You are viewing this because there is no any widget in Front Page Widget Area. Go to Appearance->Widgets in admin panel to add widgets."
+msgstr "This is a Welcome Widget. You are viewing this because there is not any widget in the Front Page Widget Area. Go to Appearance->Widgets in the admin panel to add widgets."
+
+#: inc/theme-hooks.php:546
+msgid "Welcome"
+msgstr "Welcome"
+
+#: inc/theme-hooks.php:519
+msgid "Slider Image"
+msgstr "Slider Image"
+
+#: inc/theme-hooks.php:518
+msgid "Recommended Image Sizes"
+msgstr "Recommended Image Sizes"
+
+#: inc/theme-hooks.php:333
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s by %2$s."
+
+#: inc/theme-hooks.php:331
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: inc/theme-hooks.php:331
+msgid "http://wordpress.org/"
+msgstr "http://wordpress.org/"
+
+#: inc/theme-hooks.php:142
+msgid "This is sidebar area. You are viewing this because there is no any widget in Sidebar Widget Area. Go to Appearance->Widgets in admin panel to add widgets."
+msgstr "This is tthe sidebar area. You are viewing this because there is not any widget in the Sidebar Widget Area. Go to Appearance->Widgets in the admin panel to add widgets."
+
+#: inc/theme-hooks.php:141
+msgid "Sidebar Area"
+msgstr "Sidebar Area"
+
+#: inc/theme-hooks.php:115
+msgid "Footer Column %d"
+msgstr "Footer Column %d"
+
+#: lib/breadcrumbs.php:248
+msgid "Archives"
+msgstr "Archives"
+
+#: lib/breadcrumbs.php:760 lib/breadcrumbs.php:1190
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: lib/breadcrumbs.php:759 lib/breadcrumbs.php:815 lib/breadcrumbs.php:1186
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "F"
+
+#: lib/breadcrumbs.php:788
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: inc/template-tags.php:78
+msgid "% Comments"
+msgstr "% Comments"
+
+#: inc/template-tags.php:78
+msgid "1 Comment"
+msgstr "1 Comment"
+
+#: inc/template-tags.php:78
+msgid "Leave a comment"
+msgstr "Leave a comment"
+
+#: inc/template-tags.php:72
+msgid "Tagged %1$s"
+msgstr "Tagged %1$s"
+
+#: inc/template-tags.php:66
+msgid "Posted in %1$s"
+msgstr "Posted in %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:64 inc/template-tags.php:70
+msgid ", "
+msgstr ", "
+
+#: inc/template-tags.php:18
+msgid "Newer posts"
+msgstr "Newer posts"
+
+#: inc/template-tags.php:17
+msgid "Older posts"
+msgstr "Older posts"
+
+#. Translators: %s is the page number.
+#: lib/breadcrumbs.php:252
+msgid "Page %s"
+msgstr "Page %s"
+
+#: inc/customizer.php:240
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: inc/customizer.php:87 inc/customizer.php:237
+msgid "Advanced"
+msgstr "Advanced"
+
+#: inc/customizer.php:226
+msgid "Transition Length"
+msgstr "Transition Length"
+
+#: inc/customizer.php:218
+msgid "Transition Delay"
+msgstr "Transition Delay"
+
+#: inc/customizer.php:205
+msgid "Show Pager"
+msgstr "Show Pager"
+
+#: inc/customizer.php:199
+msgid "Show Caption"
+msgstr "Show Caption"
+
+#: inc/customizer.php:195
+msgid "Scroll Horizontal"
+msgstr "Scroll Horizontal"
+
+#: inc/customizer.php:194
+msgid "None"
+msgstr "None"
+
+#: inc/customizer.php:193
+msgid "Fade Out"
+msgstr "Fade Out"
+
+#: inc/customizer.php:192
+msgid "Fade"
+msgstr "Fade"
+
+#: inc/customizer.php:186
+msgid "Transition Effect"
+msgstr "Transition Effect"
+
+#: inc/customizer.php:178
+msgid "Number of Slides"
+msgstr "Number of Slides"
+
+#: inc/customizer.php:173
+msgid "Slider Category"
+msgstr "Slider Category"
+
+#: inc/customizer.php:169
+msgid "Home Page Only"
+msgstr "Home Page Only"
+
+#: inc/customizer.php:168
+msgid "All Pages"
+msgstr "All Pages"
+
+#: inc/customizer.php:162
+msgid "Slider Display"
+msgstr "Slider Display"
+
+#: inc/customizer.php:158
+msgid "Enable"
+msgstr "Enable"
+
+#: inc/customizer.php:157
+msgid "Disable"
+msgstr "Disable"
+
+#: inc/customizer.php:152
+msgid "Slider Status"
+msgstr "Slider Status"
+
+#: inc/customizer.php:149
+msgid "Slider"
+msgstr "Slider"
+
+#: inc/widgets/recent-posts-block.php:125 inc/customizer.php:140
+msgid "Excerpt Length"
+msgstr "Excerpt Length"
+
+#: inc/widgets/recent-posts-block.php:25 inc/widgets/recent-posts-block.php:61
+#: inc/widgets/recent-posts-block.php:76 inc/widgets/service.php:175
+#: inc/widgets/service.php:180 inc/widgets/service.php:185
+#: inc/widgets/service.php:190 inc/theme-functions.php:219
+#: inc/customizer.php:136
+msgid "Read more"
+msgstr "Read more"
+
+#: inc/widgets/service.php:236 inc/widgets/service.php:258
+#: inc/widgets/service.php:280 inc/widgets/service.php:302
+#: inc/customizer.php:134
+msgid "Read more text"
+msgstr "Read more text"
+
+#: inc/customizer.php:130
+msgid "Excerpt with Thumbnail"
+msgstr "Excerpt with Thumbnail"
+
+#: inc/customizer.php:129
+msgid "Excerpt"
+msgstr "Excerpt"
+
+#: inc/customizer.php:128
+msgid "Full Post"
+msgstr "Full Post"
+
+#: inc/customizer.php:124
+msgid "Blog Layout"
+msgstr "Blog Layout"
+
+#: inc/customizer.php:121
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/customizer.php:114
+msgid "Enable Powered By"
+msgstr "Enable Powered By"
+
+#: inc/customizer.php:111
+msgid "Copyright &copy; All Rights Reserved."
+msgstr "Copyright &copy; All Rights Reserved."
+
+#: inc/customizer.php:109
+msgid "Copyright Text"
+msgstr "Copyright Text"
+
+#: inc/customizer.php:101
+msgid "No Widget"
+msgstr "No Widget"
+
+#: inc/customizer.php:97
+msgid "Footer Widgets"
+msgstr "Footer Widgets"
+
+#: inc/customizer.php:94
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/customizer.php:72
+msgid "Show Social Icons"
+msgstr "Show Social Icons"
+
+#: inc/customizer.php:67
+msgid "Show Search Box"
+msgstr "Show Search Box"
+
+#: inc/customizer.php:62
+msgid "Show Tagline"
+msgstr "Show Tagline"
+
+#: inc/customizer.php:48
+msgid "Header Layout"
+msgstr "Header Layout"
+
+#: inc/customizer.php:45
+msgid "Header"
+msgstr "Header"
+
+#: inc/customizer.php:37
+msgid "Enable Go To Top"
+msgstr "Enable Go To Top"
+
+#. Template Name of the theme
+#: inc/customizer.php:33
+msgid "No Sidebar"
+msgstr "No Sidebar"
+
+#. Template Name of the theme
+#: inc/customizer.php:32
+msgid "Right Sidebar"
+msgstr "Right Sidebar"
+
+#. Template Name of the theme
+#: inc/customizer.php:31
+msgid "Left Sidebar"
+msgstr "Left Sidebar"
+
+#: inc/customizer.php:27
+msgid "Global Layout"
+msgstr "Global Layout"
+
+#: inc/customizer.php:23
+msgid "Chocolate"
+msgstr "Chocolate"
+
+#: inc/customizer.php:22
+msgid "Blue"
+msgstr "Blue"
+
+#: inc/customizer.php:18
+msgid "Color Scheme"
+msgstr "Colour Scheme"
+
+#: inc/customizer.php:15
+msgid "General"
+msgstr "General"
+
+#: inc/customizer.php:12
+msgid "Theme Options"
+msgstr "Theme Options"
+
+#: header.php:33
+msgid "Skip to content"
+msgstr "Skip to content"
+
+#: functions.php:146
+msgid "Widgets in this sidebar will be displayed in home page."
+msgstr "Widgets in this sidebar will be displayed in the home page."
+
+#: functions.php:144
+msgid "Front Page Widget Area"
+msgstr "Front Page Widget Area"
+
+#: functions.php:135
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:48
+msgid "Social Menu"
+msgstr "Social Menu"
+
+#: functions.php:47
+msgid "Footer Menu"
+msgstr "Footer Menu"
+
+#: functions.php:46
+msgid "Primary Menu"
+msgstr "Primary Menu"
+
+#: content.php:34
+msgid "Continue reading %s"
+msgstr "Continue reading %s"
+
+#: inc/template-tags.php:82 content-page.php:30
+msgid "Edit"
+msgstr "Edit"
+
+#: content.php:53 content-single.php:25 content-page.php:23
+msgid "Pages:"
+msgstr "Pages:"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Nothing Found"
+
+#: comments.php:80
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#: comments.php:53 comments.php:70
+msgid "Newer Comments &rarr;"
+msgstr "Newer Comments &rarr;"
+
+#: comments.php:52 comments.php:69
+msgid "&larr; Older Comments"
+msgstr "&larr; Older Comments"
+
+#: comments.php:51 comments.php:68
+msgid "Comment navigation"
+msgstr "Comment navigation"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s thoughts on &ldquo;%2$s&rdquo;"
+
+#: 404.php:36
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! That page can&rsquo;t be found."
+
+#. Author URI of the theme
+msgid "https://wenthemes.com"
+msgstr "https://wenthemes.com"
+
+#. Author of the theme
+msgid "WEN Themes"
+msgstr "WEN Themes"
+
+#. Theme URI of the theme
+msgid "https://wenthemes.com/item/wordpress-themes/wen-corporate/"
+msgstr "https://wenthemes.com/item/wordpress-themes/wen-corporate/"
